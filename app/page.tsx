@@ -38,7 +38,7 @@ type TripDay = {
   bookings?: Booking[];
 };
 
-const TRIP_PASSWORD = "alaska2025";
+const TRIP_PASSWORD = "alaska2026";
 const PASSWORD_STORAGE_KEY = "alaska-trip-access-granted";
 
 function navLink(destination: string) {
@@ -460,7 +460,7 @@ const days: TripDay[] = [
     title: "Last Morning — Everyone Flies Home",
     stay: "Travel Day",
     drive: "Coast Inn → ANC Airport",
-    alerts: ["SD + SF depart 3pm — drop cars by 1pm", "AZ group departs 11pm", "Alaska Native Heritage Center open Mon–Fri 9–5 (free in winter)", "Return all cars fuelled"],
+    alerts: ["SD + SF depart 4pm — drop cars by 1pm", "AZ group departs 11pm", "Alaska Native Heritage Center open Mon–Fri 9–5 (free in winter)", "Return all cars fuelled"],
     map: "https://www.google.com/maps/dir/?api=1&origin=Coast+Inn+Anchorage&destination=Ted+Stevens+Anchorage+International+Airport&travelmode=driving",
     activities: [
       {
@@ -484,7 +484,7 @@ const days: TripDay[] = [
         icon: "car",
         destination: "Ted Stevens Anchorage International Airport",
         alert: "SD + SF groups",
-        text: "SD and SF groups (8 people + Seattle person if departing 3pm) head to ANC. Drop 2 rental cars at the airport. Check in, bag drop, security. Depart ~3pm.",
+        text: "SD and SF groups (8 people + Seattle person if departing 4pm) head to ANC. Drop 2 rental cars at the airport. Check in, bag drop, security. Depart ~3pm.",
       },
       {
         time: "1:00 PM",
